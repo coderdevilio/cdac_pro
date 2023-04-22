@@ -1,0 +1,89 @@
+
+   .table-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center; /* Add this line */
+
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .open-status {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #e6ffe6;
+    color: #006600;
+    border-radius: 4px;
+  }
+  
+  .closed-status {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #ffe6e6;
+    color: #990000;
+    border-radius: 4px;
+  }
+  
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  
+  
+  
+  .problem-header button {
+
+    /* background-color: #008080;00008B  */
+    background-color: #00008B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  
+  thead th {
+    background-color: #008080;
+    /* background-color: #00008B; */
+
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  
+  

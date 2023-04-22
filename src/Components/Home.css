@@ -1,0 +1,28 @@
+/* src/Home.css */
+.home {
+    height: 100vh;
+    background-image: url('../white_image.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-6xl {
+    font-size: 6rem;
+  }
+  
+  .text-4xl {
+    font-size: 4rem;
+  }
+  
